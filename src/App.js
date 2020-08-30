@@ -45,7 +45,7 @@ class App extends Component {
           <Container>
             <Menu borderless inverted size="massive">
               <Menu.Item header as="a">
-                Project Name
+                Project Test
               </Menu.Item>
               <Menu.Item active as="a">
                 Home
