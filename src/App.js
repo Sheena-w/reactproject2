@@ -115,7 +115,7 @@ class App extends Component {
           <Segment vertical>
             <Grid stackable>
             <Grid.Column width={6}>
-                <Image src="/static/images/wireframe/park1.jpg" />
+                <Image src={ process.env.PUBLIC_URL + "/static/images/wireframe/park1.jpg" } />
               </Grid.Column>
               <Grid.Column width={10}>
                 <Header as="h1">
@@ -133,7 +133,7 @@ class App extends Component {
           <Segment vertical>
             <Grid stackable>
               <Grid.Column width={6}>
-                <Image src=".../static/images/wireframe/park2.jpg" />
+                <Image src={process.env.PUBLIC_URL + "/static/images/wireframe/park2.jpg"} />
               </Grid.Column>
               <Grid.Column width={10}>
                 <Header as="h1">
@@ -157,7 +157,7 @@ class App extends Component {
                 </p>
               </Grid.Column>
               <Grid.Column width={6}>
-                <Image src="/static/images/wireframe/park3.jpg" />
+                <Image src={ process.env.PUBLIC_URL + "/static/images/wireframe/park3.jpg" } />
               </Grid.Column>
             </Grid>
           </Segment>
