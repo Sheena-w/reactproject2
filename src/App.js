@@ -133,7 +133,7 @@ class App extends Component {
           <Segment vertical>
             <Grid stackable>
               <Grid.Column width={6}>
-                <Image src="/static/images/wireframe/park2.jpg" />
+                <Image src=".../static/images/wireframe/park2.jpg" />
               </Grid.Column>
               <Grid.Column width={10}>
                 <Header as="h1">
